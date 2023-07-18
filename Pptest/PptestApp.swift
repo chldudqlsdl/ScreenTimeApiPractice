@@ -6,12 +6,25 @@
 //
 
 import SwiftUI
+import FamilyControls
+import DeviceActivity
 
 @main
 struct PptestApp: App {
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Text("스크린타임")
+                    }
+                DogamView()
+                    .tabItem {
+                        Text("도감")
+                    }
+            }
         }
     }
 }
