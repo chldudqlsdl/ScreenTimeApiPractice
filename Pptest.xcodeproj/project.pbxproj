@@ -22,7 +22,7 @@
 		D9B06D0A2A6580640015B4B8 /* PpWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B06D092A6580640015B4B8 /* PpWidget.swift */; };
 		D9B06D0C2A6580650015B4B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B06D0B2A6580650015B4B8 /* Assets.xcassets */; };
 		D9B06D102A6580650015B4B8 /* PpWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D9B06D032A6580640015B4B8 /* PpWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D9F53E162A66A6EE000514FA /* DogamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F53E152A66A6EE000514FA /* DogamView.swift */; };
+		D9F53E162A66A6EE000514FA /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F53E152A66A6EE000514FA /* DogView.swift */; };
 		D9F53E182A66AD8B000514FA /* DogamReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F53E172A66AD8B000514FA /* DogamReport.swift */; };
 		D9F53E1A2A66ADC7000514FA /* DogamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F53E192A66ADC7000514FA /* DogamView.swift */; };
 /* End PBXBuildFile section */
@@ -93,7 +93,7 @@
 		D9B06D0D2A6580650015B4B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9B06D142A6591610015B4B8 /* PpWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PpWidgetExtension.entitlements; sourceTree = "<group>"; };
 		D9F05C622A61B6D700969B5B /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
-		D9F53E152A66A6EE000514FA /* DogamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogamView.swift; sourceTree = "<group>"; };
+		D9F53E152A66A6EE000514FA /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
 		D9F53E172A66AD8B000514FA /* DogamReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogamReport.swift; sourceTree = "<group>"; };
 		D9F53E192A66ADC7000514FA /* DogamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +155,7 @@
 				D90545B32A5E986A002033CF /* Pptest.entitlements */,
 				D90545A52A5E8ED3002033CF /* PptestApp.swift */,
 				D90545A72A5E8ED3002033CF /* ContentView.swift */,
-				D9F53E152A66A6EE000514FA /* DogamView.swift */,
+				D9F53E152A66A6EE000514FA /* DogView.swift */,
 				D90545A92A5E8ED4002033CF /* Assets.xcassets */,
 				D90545AB2A5E8ED4002033CF /* Preview Content */,
 			);
@@ -345,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F53E162A66A6EE000514FA /* DogamView.swift in Sources */,
+				D9F53E162A66A6EE000514FA /* DogView.swift in Sources */,
 				D90545A82A5E8ED3002033CF /* ContentView.swift in Sources */,
 				D90545A62A5E8ED3002033CF /* PptestApp.swift in Sources */,
 			);

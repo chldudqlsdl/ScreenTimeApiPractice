@@ -4,7 +4,6 @@
 //
 //  Created by Youngbin Choi on 2023/07/18.
 //
-
 import DeviceActivity
 import SwiftUI
 
@@ -36,3 +35,4 @@ struct DogamReport: DeviceActivityReportScene {
         return formatter.string(from: totalActivityDuration) ?? "No activity data"
     }
 }
+

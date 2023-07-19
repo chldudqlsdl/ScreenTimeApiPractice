@@ -20,7 +20,7 @@ struct PptestApp: App {
                     .tabItem {
                         Text("스크린타임")
                     }
-                DogamView()
+                DogView()
                     .tabItem {
                         Text("도감")
                     }

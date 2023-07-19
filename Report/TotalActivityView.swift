@@ -10,10 +10,14 @@ import SwiftUI
 
 
 struct TotalActivityView: View {
+    @AppStorage("settedHour") var settedHour: Int = UserDefaults.standard.integer(forKey: "settedHour")
+    @AppStorage("settedMinute") var settedMinute: Int = UserDefaults.standard.integer(forKey: "settedMinute")
     let totalActivity: String
     
     var body: some View {
         Text(totalActivity)
+        Text("\(settedHour)")
+        Text("\(settedMinute)")
     }
 }
 

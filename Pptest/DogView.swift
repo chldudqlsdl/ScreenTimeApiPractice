@@ -13,7 +13,7 @@ extension DeviceActivityReport.Context {
     static let dogamActivity = Self("Dogam Activity")
 }
 
-struct DogamView: View {
+struct DogView: View {
     @State private var context: DeviceActivityReport.Context = .dogamActivity
     
     var body: some View {
@@ -23,6 +23,6 @@ struct DogamView: View {
 
 struct DogamView_Previews: PreviewProvider {
     static var previews: some View {
-        DogamView()
+        DogView()
     }
 }
